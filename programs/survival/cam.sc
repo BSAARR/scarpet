@@ -5,7 +5,7 @@
 // places spectating players without config in a safe places
 // and adds timeout for the player so they cannot switch instantly
 // change setting below to change that behaviour (0 to disable timeout)
-global_survival_timeout = 3;
+global_survival_timeout = 0;
 
 // additional player checks are here. comment lines that you think are not needed
 __assert_player_can_cam_out(player) ->
